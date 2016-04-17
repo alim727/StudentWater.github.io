@@ -1,0 +1,56 @@
+﻿div>.link { display: none; }
+div>#linkedIn {display: none;}
+div:hover>.link {
+    display:block; 
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100%;
+	color:#fff !important;
+        content: "\25AE"; <--- this is your text. You can also use UTF-8 character codes as I do here
+    font-family: FontAwesome;
+}
+/*div:hover>#linkedIn {
+}*/
+
+#imgFont{
+        position:relative;
+}
+
+/*#imgFont:after {
+    content: "\25AE"; <--- this is your text. You can also use UTF-8 character codes as I do here
+    font-family: FontAwesome;
+    left:-5px;
+    position:absolute;
+    top:0;
+ }*/
+
+.arise {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100%;
+	color:#fff !important;
+}
+
+.thumbnail {
+    position: relative;
+    overflow: hidden;
+}
+
+.thumbnail .caption #college{
+    font-size:smaller;
+}
+
+.thumbnail .caption h6{
+    font-weight:bold;
+}
+
+.caption{
+    font-family:'ASAP','Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'
+}
